@@ -1,9 +1,16 @@
-let prices = [9.99, 1.50, 19.99, 49.99, 30.50];
-// figure out total amount of what I've bought
-// you could run a for loop, as one approach
+// function rollDie(numSides = 6) {
+//     return Math.floor(Math.random() * numSides) + 1;
+// }
 
-// or, you can use reduce (same idea)
+function greet(person, msg="Hey there", punc="!") {
+    console.log(`${msg}, ${person}${punc}`);
+}
 
-let total = prices.reduce((total, price) => {
-    return total + price;
-})
+// we gave msg a default value
+// order matters, however; always have default params come second, third, etc - after any params that are not default
+
+greet("Rosa")
+// Hey there, Rosa!
+
+greet("Rosa", "Hiya", "!!!!")
+// Hiya, Rosa!!!!
