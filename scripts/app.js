@@ -1,8 +1,5 @@
-let formData = {
-    email: 'blueman@gmail.com',
-    password: 'tobias123!',
-    username: 'tfunke'
+function raceResults(gold, silver, ...everyoneElse) {
+    console.log(`GOLD MEDAL GOES TO: ${gold}`);
+    console.log(`SILVER MEDAL GOES TO: ${silver}`);
+    console.log(`AND THANKS TO EVERYONE ELSE: ${everyoneElse}`);
 }
-
-let newUser = {...formData, id: 2345, isAdmin: false};
-// combines formData with new data - id and isAdmin
