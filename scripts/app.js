@@ -1,5 +1,4 @@
-function raceResults(gold, silver, ...everyoneElse) {
-    console.log(`GOLD MEDAL GOES TO: ${gold}`);
-    console.log(`SILVER MEDAL GOES TO: ${silver}`);
-    console.log(`AND THANKS TO EVERYONE ELSE: ${everyoneElse}`);
-}
+let scores = [34, 35, 46, 75, 77, 89, 100];
+
+// gather everyone else
+const [gold, silver, bronze, ...everyoneElse] = scores;
