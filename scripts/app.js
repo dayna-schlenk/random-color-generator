@@ -1,16 +1,18 @@
-// function rollDie(numSides = 6) {
-//     return Math.floor(Math.random() * numSides) + 1;
-// }
+let nums = [12, 24, 56, 3, 4, 5, 8, 9, 2345];
 
-function greet(person, msg="Hey there", punc="!") {
-    console.log(`${msg}, ${person}${punc}`);
-}
+console.log("boy", "girl", "man", "woman", "whatever");
+// prints with spaces
 
-// we gave msg a default value
-// order matters, however; always have default params come second, third, etc - after any params that are not default
+console.log(nums);
+// prints with brackets
 
-greet("Rosa")
-// Hey there, Rosa!
+console.log(...nums);
+// prints without brackets
 
-greet("Rosa", "Hiya", "!!!!")
-// Hiya, Rosa!!!!
+// can also spread into a function call
+console.log("hello");
+// hello
+
+console.log(..."hello");
+// h e l l o
+// passed in as separate characters/separate standalone arguments
