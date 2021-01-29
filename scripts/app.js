@@ -1,7 +1,8 @@
-let cats = ['Ariel', 'Mr. Cat', 'Freddy', 'Tomas'];
-let dogs = ['Rudy', 'Picasso', 'Rigby'];
+let formData = {
+    email: 'blueman@gmail.com',
+    password: 'tobias123!',
+    username: 'tfunke'
+}
 
-let allPets = [...cats, ...dogs];
-// we want this to contain everything from cats & everything from dogs - use spread operator
-
-// spread copies the contents
+let newUser = {...formData, id: 2345, isAdmin: false};
+// combines formData with new data - id and isAdmin
