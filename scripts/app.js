@@ -1,4 +1,13 @@
-let scores = [34, 35, 46, 75, 77, 89, 100];
+const person = {
+    first: 'Freddie',
+    last: 'Spaghetti',
+    country: 'Spaghetti Land',
+    city: 'Meatball City',
+    twitter: '@spaghet32'
+};
 
-// gather everyone else
-const [gold, silver, bronze, ...everyoneElse] = scores;
+const {first, last, twitter} = person;
+
+console.log(first);
+console.log(last);
+console.log(twitter);
