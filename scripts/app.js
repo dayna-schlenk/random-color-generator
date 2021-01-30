@@ -1,13 +1,15 @@
-const person = {
-    first: 'Freddie',
-    last: 'Spaghetti',
-    country: 'Spaghetti Land',
-    city: 'Meatball City',
-    twitter: '@spaghet32'
+const bestBoy = {
+    name: 'Picasso',
+    age: 5,
+    veryGood: true,
+    weight: 65,
+    height: 'Mini pittie'
 };
 
-const {first, last, twitter} = person;
+const bestGirl = {
+    name: 'Lady',
+    age: 8,
+    veryGood: true,
+};
 
-console.log(first);
-console.log(last);
-console.log(twitter);
+const {name, age, height = 'Big baby'} = bestGirl;
