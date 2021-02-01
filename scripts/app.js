@@ -1,6 +1,3 @@
-document.getElementsByTagName("li")[2].style.color = "purple";
+document.querySelector("button").classList.add("invisible)");
 
-document.querySelector("h1"); // tag
-document.querySelector("#title"); // id
-document.querySelector(".btn"); // class
-document.querySelector("li a"); // combined
+// this adds a new class to the html, which we can then tap into on our stylesheets
