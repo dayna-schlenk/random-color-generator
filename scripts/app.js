@@ -1,3 +1,7 @@
-// Change Google link to Bing
+// Use a loop to view all list items
 
-document.querySelector("a").setAttribute("href", "https://www.bing.com");
+const allItems = document.getElementsByTagName("li");
+
+for (let item of allItems) {
+    item.hidden = true; //now, all list items are hidden on the page
+}
