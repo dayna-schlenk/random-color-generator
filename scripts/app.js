@@ -1,6 +1,2 @@
-let mainPage = document.querySelector('#container');
-mainPage.style.textAlign = 'center';
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
-let treePic = document.querySelector('img');
-treePic.style.width = '150px';
-treePic.style.borderRadius = '50%';
