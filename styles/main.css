@@ -7,3 +7,11 @@
 html, body {
     height: 100vh;
 }
+
+li {
+  background-color: #B10DC9;
+}
+
+.highlight {
+  background-color: #7FDBFF;
+}
