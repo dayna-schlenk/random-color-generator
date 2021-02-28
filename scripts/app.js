@@ -1,5 +1,6 @@
-let allListItems = document.querySelectorAll('li');
+const newH3 = document.createElement("h3");
+// creates empty h3
 
-for (let eachLi of allListItems) {
-    eachLi.classList.toggle('highlight');
-}
+newH3.innerText = "I'm new here!";
+
+document.body.appendChild(newH3);
