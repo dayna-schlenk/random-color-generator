@@ -7,12 +7,3 @@
 html, body {
     height: 100vh;
 }
-
-.pokemon {
-  display: inline-block;
-  text-align: center;
-}
-
-.pokemon img {
-  display: block;
-}
