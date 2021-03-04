@@ -6,3 +6,9 @@ function randomNum() {
 // Applies random number to rgb sequence
 let newRgb = `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`;
 console.log(newRgb);
+
+// Testing button
+let btn = document.querySelector("#color-changer");
+btn.onclick = function() {
+    console.log("You clicked me!");
+}
