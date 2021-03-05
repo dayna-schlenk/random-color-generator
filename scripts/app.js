@@ -14,5 +14,5 @@ btn.onclick = function() {
     document.body.style.backgroundColor = newRgb;
 
     // Change h1 to indicate rgb
-    document.querySelector("h1").innerText = "HEY";
+    document.querySelector("h1").innerText = newRgb;
 }
