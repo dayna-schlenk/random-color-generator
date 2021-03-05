@@ -3,12 +3,16 @@ function randomNum() {
     return Math.floor(Math.random() * (255 - 0) + 0);
 }
 
-// Applies random number to rgb sequence
-let newRgb = `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`;
-console.log(newRgb);
-
 // Testing button
 let btn = document.querySelector("#color-changer");
+
 btn.onclick = function() {
-    console.log("You clicked me!");
+    // Applies random number to rgb sequence
+    let newRgb = `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`;
+
+    // Apply color to background
+    document.body.style.backgroundColor = newRgb;
+
+    // Change h1 to indicate rgb
+    document.querySelector("h1").innerText = "HEY";
 }
